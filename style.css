@@ -130,14 +130,40 @@ header {
 }
 
 .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+
+    h2 {
+        font-size: 36px;
+        font-weight: bolder;
+        color: var(--darkblue);
+    }
 
     .info-section {
+        height: 35vh;
         display: flex;
         justify-content: center;
-        gap: 52px;
+        align-items: center;
+        gap: 2em;
+        flex-wrap: wrap;
 
         .info {
+            text-align: center;
             max-width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5em;
+
+
+            .info-img {
+                height: 160px;
+                width: 160px;
+                border: 4px solid var(--cta);
+                border-radius: 20px;
+            }
         }
     }
 }
