@@ -79,7 +79,7 @@ header {
     .hero {
         background-color: var(--darkblue);
         color: var(--logo-color);
-        height: 33vh;
+        height: 40vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -103,6 +103,7 @@ header {
                 background-color: var(--cta);
                 border: 1px solid var(--cta);
                 font-weight: bold;
+                width: 128px;
             }
         }
 
