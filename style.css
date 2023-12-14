@@ -189,9 +189,60 @@ header {
     }
 }
 
+.cta-section {
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1em 15em;
+
+    .modal {
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--cta);
+        border: 1px solid var(--cta);
+        border-radius: 10px;
+        align-items: center;
+        height: 12vh;
+
+        .cta-modal {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .cta-text {
+                color: var(--logo-color);
+                font-size: 24px;
+                font-weight: bolder;
+            }
+
+            .modal-text {
+                color: var(--logo-color);
+            }
+        }
+
+        .signup-inverse {
+            align-items: center;
+            cursor: pointer;
+            padding: 6px 30px;
+            border-radius: 8px;
+            color: var(--logo-color);
+            background-color: var(--cta);
+            border: 2px solid var(--logo-color);
+            font-weight: bold;
+            width: 128px;
+            font-size: 18px;
+
+        }
+    }
+
+}
+
 footer {
     display: flex;
     justify-content: center;
     background-color: var(--darkblue);
+    align-items: center;
     color: var(--logo-color);
+    height: 10vh;
 }
